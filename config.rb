@@ -2,6 +2,8 @@
 # Compass
 ###
 
+require 'kramdown'
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact

@@ -130,6 +130,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kramdown
   middleman
   middleman-livereload
 
