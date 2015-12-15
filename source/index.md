@@ -1,23 +1,9 @@
 ---
-title: Welcome to Middleman
+
 ---
 
-The 4Quant algorithm can help you understand the causal factors that lead to
-outcomes in your business.
+4Quant helps radiologists analyze medical image data for more accurate treatment plans and more precise diagnoses.
 
-Unlike traditional data analyst work with spreadsheets and pivot tables which
-offer a shallow view of your data, our proven and proprietary algorithm can
-help you find answers hidden deep within your data that would otherwise remain
-hidden.
+Our [solutions](solutions.html) implement our large-scale, cluster-computing based image analysis technology and artificial intelligence.
 
-All too often it isn’t always clear if data analysis is even looking at the
-right data and looking for answers to the right questions. Our algorithm works
-in both a supervised and unsupervised mode and can detect patterns in data that
-are missed by even the most seasoned data scientists. We explore your data
-using our unbiased, objective algorithm and our modeling process allows us to
-converge on answers quickly and with predictable accuracy. 4Quant excels at
-heterogeneous, time-series, multi-variate data. These complicated data sets,
-such as those that exist in a hospital, are often impossible to model. Our
-proprietary, learning algorithm can provide you with answers and insights that
-allow you to adjust protocols and procedures to improve both clinical and
-financial outcomes.
+You can get in touch via [email](mailto:info@4quant.com), [Twitter](https://twitter.com/4quant), [Linkedin](https://www.linkedin.com/company/4quant) or [Facebook](https://www.facebook.com/4quant/). 
