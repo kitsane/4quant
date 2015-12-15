@@ -1,5 +1,4 @@
 ---
-title: Welcome to Middleman
 ---
 
 The 4Quant algorithm can help you understand the causal factors that lead to
