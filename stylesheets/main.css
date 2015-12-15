@@ -1,0 +1,496 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700italic,700);
+/* line 10, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 174, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 380, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 391, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 400, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 409, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 420, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, /Users/kitsane/Documents/src/4quant/source/stylesheets/normalize.css */
+td,
+th {
+  padding: 0; }
+
+/* line 11, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 15, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 19, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+html {
+  margin: 0;
+  padding: 0; }
+
+/* line 24, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #434343;
+  background-color: #fcfcfc;
+  margin-top: 61.6px; }
+
+/* line 33, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+a {
+  color: #434343; }
+
+/* line 37, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+p {
+  font-family: 'PT Serif', serif; }
+
+/* line 41, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+h1, h2, h3, ul, p {
+  margin-top: 0;
+  margin-bottom: 30.8px; }
+
+/* line 46, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+h1, h2, h3 {
+  font-size: 22px;
+  text-align: center; }
+
+/* line 51, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+h1 {
+  text-transform: uppercase; }
+
+/* line 55, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+h3 {
+  margin-bottom: 0;
+  text-align: left; }
+
+/* line 60, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+header, nav {
+  text-align: center; }
+
+/* line 64, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 15.4px;
+  padding-right: 15.4px; }
+
+/* line 73, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+.brand {
+  font-size: 2.8rem;
+  text-decoration: none;
+  margin-bottom: 61.6px;
+  display: block; }
+  /* line 79, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+  .brand:hover {
+    text-decoration: none; }
+
+/* line 84, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+.brand-name {
+  line-height: 1; }
+
+/* line 88, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+.claim {
+  font-size: 0.96rem;
+  text-transform: uppercase; }
+
+/* line 93, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+.list-horizontal {
+  list-style: none;
+  padding: 0; }
+  /* line 97, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+  .list-horizontal li {
+    display: inline;
+    padding-left: 7.7px;
+    padding-right: 7.7px; }
+
+/* line 106, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+img {
+  width: 100%; }
+
+/* line 110, /Users/kitsane/Documents/src/4quant/source/stylesheets/main.scss */
+strong {
+  font-weight: 600; }

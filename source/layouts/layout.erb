@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>4Quant | <%= current_page.data.title || "Big Image Analytics" %></title>
+
+    <%= stylesheet_link_tag "main" %>
+  </head>
+  <body>
+    <section>
+      <header>
+        <a href="/" class="brand">
+          <div class="brand-name"><strong>4Q</strong>uant</div>
+          <div class="claim">Big Image Analytics</div>
+        </a>
+      </header>
+    </section>
+    <main>
+      <section>
+        <%= yield %>
+      </section>
+    </main>
+    <section>
+      <nav>
+        <ul class="list-horizontal">
+          <li>
+            <%= link_to 'Home', '/' %>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
