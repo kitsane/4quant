@@ -1,1 +1,111 @@
 @import 'normalize';
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+$font-size-base: 22px;
+$line-height-base: 1.4;
+$vertical-space: $font-size-base * $line-height-base; // ca 31px
+$horizontal-space: $vertical-space / 2;
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: #434343;
+  background-color: #fcfcfc;
+  margin-top: $vertical-space * 2;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+a {
+  color: #434343;
+}
+
+h1, h2, h3, ul, p {
+  margin-top: 0;
+  margin-bottom: $vertical-space;
+}
+
+h1, h2, h3 {
+  font-size: $font-size-base;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+header, nav {
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: {
+    left: $horizontal-space;
+    right: $horizontal-space;
+  }
+}
+
+.brand {
+  font-size: 2.8rem;
+  text-decoration: none;
+  margin-bottom: $vertical-space * 2;
+  display: block;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.brand-name {
+  line-height: 1;
+}
+
+.claim {
+  font-size: 0.96rem;
+  text-transform: uppercase;
+}
+
+.list-horizontal {
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: inline;
+    padding: {
+      left: $horizontal-space / 2;
+      right: $horizontal-space / 2;
+    }
+  }
+}
+
+img {
+  width: 100%;
+}
+
+strong {
+  font-weight: 600;
+}

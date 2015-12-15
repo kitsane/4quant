@@ -1,19 +1,46 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title>4Quant | <%= current_page.data.title || "Big Image Analytics" %></title>
 
     <%= stylesheet_link_tag "main" %>
     <%= javascript_include_tag  "main" %>
   </head>
-
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body>
+    <section>
+      <header>
+        <a href="/" class="brand">
+          <div class="brand-name"><strong>4Q</strong>uant</div>
+          <div class="claim">Big Image Analytics</div>
+        </a>
+      </header>
+    </section>
+    <main>
+      <section>
+        <%= yield %>
+      </section>
+    </main>
+    <section>
+      <nav>
+        <ul class="list-horizontal">
+          <li>
+            <a href="Home">Home</a>
+          </li>
+          <li>
+            <a href="Solutions">Solutions</a>
+          </li>
+          <li>
+            <a href="Media">Media</a>
+          </li>
+          <li>
+            <a href="About">About</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
   </body>
 </html>
