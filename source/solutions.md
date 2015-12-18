@@ -1,11 +1,27 @@
 ---
 
+title: Solutions
+
 ---
+
+# Solutions
+
+Unlike traditional data analyst work with spreadsheets and pivot tables which
+offer a shallow view of your data, our proven and proprietary algorithm can
+help you find answers hidden deep within your data that would otherwise remain
+hidden.
+
+## Radiology
+
+Unlike traditional data analyst work with spreadsheets and pivot tables which
+offer a shallow view of your data, our proven and proprietary algorithm can
+help you find answers hidden deep within your data that would otherwise remain
+hidden.
+
+## Transportation
 
 The 4Quant algorithm can help you understand the causal factors that lead to
 outcomes in your business.
-
-# Das ist ein Test
 
 Unlike traditional data analyst work with spreadsheets and pivot tables which
 offer a shallow view of your data, our proven and proprietary algorithm can
