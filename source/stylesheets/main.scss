@@ -6,10 +6,12 @@
 Todo: Schrift sollte auf mobile devices kleiner sein
 */
 
-$font-size-base: 19px;
+$base-font-size: 19px;
 $line-height-base: 1.7;
-$vertical-space: $font-size-base * $line-height-base; // ca 31px
+$vertical-space: $base-font-size * $line-height-base; // ca 31px
 $horizontal-space: $vertical-space / 2;
+$base-text-color: #434343;
+$base-background-color: #fcfcfc;
 
 html {
   box-sizing: border-box;
@@ -26,15 +28,15 @@ html {
 
 body {
   font-family: 'Merriweather', serif;
-  font-size: $font-size-base;
+  font-size: $base-font-size;
   line-height: $line-height-base;
-  color: #434343;
-  background-color: #fcfcfc;
+  color: $base-text-color;
+  background-color: $base-background-color;
   margin-top: $vertical-space * 2;
 }
 
 a {
-  color: #434343;
+  color: $base-text-color;
 }
 
 h1, h2, h3, ul, p {
@@ -43,7 +45,7 @@ h1, h2, h3, ul, p {
 }
 
 h1, h2, h3 {
-  font-size: $font-size-base;
+  font-size: $base-font-size;
   text-align: center;
   font-family: 'Source Sans Pro';
   font-weight: 600;
@@ -118,3 +120,118 @@ img {
 strong {
   font-weight: 600;
 }
+
+
+
+/* pretty underline */
+
+/// Remove the unit of a length
+/// @param {Number} $number - Number to remove unit from
+/// @return {Number} - Unitless number
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+// Transform px to em
+@function em($px, $base: $base-font-size) {
+    @return (strip-unit($px) / strip-unit($base)) * 1em;
+}
+
+// Transform em to px
+@function px($em, $base: $base-font-size) {
+    @return (strip-unit($em) * strip-unit($base)) * 1px;
+}
+
+// Underline mixin
+//
+// If you set the variable in ems, be carefull. Firefox doesn't like dimensions <1px.
+// $var * base-font-size > 1px
+@mixin underline ($underline-color: $base-text-color, $position: 2px, $width: 1px, $background-color: $base-background-color, $cut-distance: 1px, $font-size: $base-font-size) {
+  
+  // remove classic underline
+  text-decoration: none;
+  
+  // warn if underline is thinner than 1px
+  @if unit($width)==px {
+    @if $width < 1px {
+      @warn "Underline is thinner than 1px. Some browsers may not display it."
+    }
+  }
+  @if unit($width)==em {
+    @if px($width) < 1px {
+      @warn "Underline is thinner than 1px. Some browsers may not display it."
+    }
+  }
+  
+  // if unit is in px, tranform it in em
+  @if unit($position)==px {
+    $position: em($position, $font-size);
+  }
+  @if unit($width)==px {
+    $width: em($width, $font-size);
+  }
+  @if unit($cut-distance)==px {
+    $cut-distance: em($cut-distance, $font-size);
+  }
+  
+  // the underline
+  background-image: linear-gradient(to top, $background-color, $background-color $position, $underline-color $position, $underline-color $position+$width, $background-color $position+$width);
+
+  // text-shadow
+  // why so much ?! -> http://dsh.re/14297
+  $precision: 5;
+  $all: (); 
+  $delta-distance: $width * 2 / ($precision - 1);
+  // from left to right
+  @for $i from 0 through ($precision - 1) {
+    // from top to bottom
+    @for $y from 0 through ($precision - 1){
+      $all: append($all, (-$width)+$delta-distance*$i ((-$width)+$delta-distance*$y) 0 $background-color, comma)
+    }
+  }
+  text-shadow: $all;
+}
+
+.underline {
+  @include underline();
+  
+  // When underline text is selected, the shadow color is the same as
+  // the selection color.
+  &::selection {
+    @include underline($base-text-color, 4px, 1px, lighten(red, 30%));
+  }
+  
+}
+a.underline:hover {
+   @include underline($base-text-color);
+}
+
+// thicker underline for title
+h1,
+h2 {
+  & > .underline {
+    @include underline($base-text-color, 0.085em, 0.085em);
+  }
+}
+
+// housekeeping
+body {
+  color: $base-text-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  
+  font-feature-settings: "liga", "clig", "onum";
+}
+
+a {
+  color: $base-text-color;
+  &:hover {
+    color: $base-text-color;
+  }
+}
+
+/* pretty underline end */
