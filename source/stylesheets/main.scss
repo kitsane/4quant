@@ -3,7 +3,9 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic);
 
 /*
-Todo: Schrift sollte auf mobile devices kleiner sein
+Todos: 
+- Schrift sollte auf mobile devices kleiner sein
+- pretty underlines funktionieren nur, wenn ich class="underline" angebe. das ist mühsam, wenn man markdown schreiben will.
 */
 
 $base-font-size: 19px;
@@ -71,7 +73,7 @@ nav {
 }
 
 section {
-  max-width: 768px;
+  max-width: 43.75rem; 
   margin: 0 auto;
   padding: {
     left: $horizontal-space;
@@ -199,15 +201,11 @@ strong {
 .underline {
   @include underline();
   
-  // When underline text is selected, the shadow color is the same as
-  // the selection color.
-  &::selection {
-    @include underline($base-text-color, 4px, 1px, lighten(red, 30%));
-  }
-  
 }
-a.underline:hover {
-   @include underline($base-text-color);
+
+a {
+  @include underline();
+
 }
 
 // thicker underline for title
@@ -225,13 +223,6 @@ body {
   -webkit-font-smoothing: antialiased;
   
   font-feature-settings: "liga", "clig", "onum";
-}
-
-a {
-  color: $base-text-color;
-  &:hover {
-    color: $base-text-color;
-  }
 }
 
 /* pretty underline end */
