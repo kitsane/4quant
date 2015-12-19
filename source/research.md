@@ -4,7 +4,7 @@ title: Research
 
 ---
 
-4Quant has given presentations at a number of conferences and workshops in areas from genetics to material science, machine learning, and big data. Selected presentations are available online
+<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> has given presentations at a number of conferences and workshops in areas from genetics to material science, machine learning, and big data. Selected presentations are available online
 
 * [Real-time MRI image segmentation using parallel image computing and machine learning algorithms](http://4quant.com/Realtime-MRI-Segmentation/)
 * [Railway Track Diagnostics using inexpensive cameras and cloud computing](http://4quant.com/Railway-Check/)
