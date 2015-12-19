@@ -54,10 +54,10 @@ h1, h2, h3, ul, p, table {
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: $alternative-font-family;
-  font-size: $base-font-size * .8;
+//  margin-left: auto;
+//  margin-right: auto;
+//  font-family: $alternative-font-family;
+//  font-size: $base-font-size * .8;
 }
 
 h1, h2, h3 {
@@ -168,7 +168,13 @@ td {
 //
 // If you set the variable in ems, be carefull. Firefox doesn't like dimensions <1px.
 // $var * base-font-size > 1px
-@mixin underline ($underline-color: $base-text-color, $position: 1px, $width: 1px, $background-color: $base-background-color, $cut-distance: 1px, $font-size: $base-font-size) {
+@mixin underline (
+  $underline-color: $base-text-color, 
+  $position: 1px, 
+  $width: 1px, 
+  $background-color: $base-background-color, 
+  $cut-distance: 1px, 
+  $font-size: $base-font-size) {
   
   // remove classic underline
   text-decoration: none;
@@ -197,7 +203,14 @@ td {
   }
   
   // the underline
-  background-image: linear-gradient(to top, $background-color, $background-color $position, $underline-color $position, $underline-color $position+$width, $background-color $position+$width);
+  background-image: 
+    linear-gradient(
+      to top, 
+      $background-color, 
+      $background-color $position, 
+      $underline-color $position, 
+      $underline-color $position+$width, 
+      $background-color $position+$width);
 
   // text-shadow
   // why so much ?! -> http://dsh.re/14297
