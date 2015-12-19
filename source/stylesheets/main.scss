@@ -168,7 +168,7 @@ td {
 //
 // If you set the variable in ems, be carefull. Firefox doesn't like dimensions <1px.
 // $var * base-font-size > 1px
-@mixin underline ($underline-color: $base-text-color, $position: 0px, $width: 1px, $background-color: $base-background-color, $cut-distance: 1px, $font-size: $base-font-size) {
+@mixin underline ($underline-color: $base-text-color, $position: 1px, $width: 1px, $background-color: $base-background-color, $cut-distance: 1px, $font-size: $base-font-size) {
   
   // remove classic underline
   text-decoration: none;
