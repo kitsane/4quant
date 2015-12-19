@@ -20,7 +20,7 @@ hidden.
 
 ## Transportation
 
-The 4Quant algorithm can help you understand the causal factors that lead to
+The <span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> algorithm can help you understand the causal factors that lead to
 outcomes in your business.
 
 Unlike traditional data analyst work with spreadsheets and pivot tables which
@@ -33,7 +33,7 @@ right data and looking for answers to the right questions. Our algorithm works
 in both a supervised and unsupervised mode and can detect patterns in data that
 are missed by even the most seasoned data scientists. We explore your data
 using our unbiased, objective algorithm and our modeling process allows us to
-converge on answers quickly and with predictable accuracy. 4Quant excels at
+converge on answers quickly and with predictable accuracy. <span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> excels at
 heterogeneous, time-series, multi-variate data. These complicated data sets,
 such as those that exist in a hospital, are often impossible to model. Our
 proprietary, learning algorithm can provide you with answers and insights that
