@@ -40,17 +40,14 @@ body {
 
   @include media('<=phone'){
     font-size: $phone-font-size;
-//    background-color: red;
   }
 
   @include media('>phone'){
     font-size: $tablet-font-size;
-//    background-color: yellow;
   }
 
   @include media('>=tablet'){
     font-size:$base-font-size;
-//    background-color: $base-background-color;
   }
 
   line-height: $line-height-base;
@@ -167,7 +164,8 @@ td {
 
 ul {
 //margin: 0 0 0 0;
-padding: 0 .5em 0 1em ;
+padding: 0 $horizontal-space 0 $horizontal-space ;
+
 }
 
 ul {
