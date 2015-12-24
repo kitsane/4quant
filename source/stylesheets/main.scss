@@ -66,7 +66,7 @@ body {
 }
 
 .caption {
-  font-size: .6em;
+  font-size: .7em;
   text-align: right;
   vertical-align: middle;
 }
@@ -94,6 +94,7 @@ body {
   display: table-cell;
   padding-left: 4px;
   padding-right: 4px;
+  padding-bottom: 4px;
 }
 
 .intro {
@@ -288,7 +289,7 @@ ul {
 @mixin underline (
   $underline-color: $base-text-color, 
   $position: 1px, 
-  $width: 1px, 
+  $width: 0.035em, 
   $background-color: $base-background-color, 
   $cut-distance: 1px, 
   $font-size: $base-font-size) {
@@ -346,7 +347,6 @@ ul {
 
 .underline {
   @include underline();
-  
 }
 
 a {
@@ -358,6 +358,22 @@ h1,
 h2 {
   & > .underline {
     @include underline($base-text-color, 0.085em, 0.085em);
+  }
+}
+
+/*
+  $underline-color: $base-text-color, 
+  $position: 1px, 
+  $width: 1px, 
+  $background-color: $base-background-color, 
+  $cut-distance: 1px, 
+  $font-size: $base-font-size) {
+
+*/
+
+nav {
+  & ul > li > a {
+    @include underline($base-text-color, 0.09em, 0.035em, $base-background-color, 1px, 14px);
   }
 }
 
