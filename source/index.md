@@ -2,15 +2,52 @@
 
 ---
 
-<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> analyzes your tera- and petabytes of image and video data for your customer advantage and monetanization.
+<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> analyzes your tera- and petabytes of image and video data for your customer advantage and monetization.
 
-<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> offers cloud-compatible, large-scale image analytics [solutions](solutions.html) for radiology, pathology, industry 4.0 and bla. You benefit from unlimited, elastic scalability without heavy investment costs in your own IT infrastructure.
+We offer cloud-compatible, large-scale image analytics [solutions](solutions.html) for a data-driven medicine and your industry 4.0 needs. You benefit from unlimited, elastic scalability without heavy investments in your own IT infrastructure.
 
-|<span class="caption">27.12.15</span>|   [Quantitative analysis of 1’000 CT Scans](#blogpost)|
-|<span class="caption">11.12.15</span>|   [iA4: New WordPress Template](#blogpost)|
-|<span class="caption">5.12.15</span>|   [Deep Learning Case](#blogpost)|
-|<span class="caption">2.12.15</span>|   [Starting Out On Android](#blogpost)|
-|<span class="caption">26.11.15</span>|   [The Guardian: Information Architecture](#blogpost)|
+<div class="table">
+    <div class="row">
+        <div class="cell caption">
+            27.12.15
+        </div>
+        <div class="cell">
+            <a href="#">Radiology: Mamography Study</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell caption">
+            11.12.15
+        </div>
+        <div class="cell">
+            <a href="#">Radiology: COPD and deep learning</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell caption">
+            5.12.15
+        </div>
+        <div class="cell">
+            <a href="#">Streamline clinical trials</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell caption">
+            2.12.15
+        </div>
+        <div class="cell">
+            <a href="#">Starting Out On Android</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell caption">
+            26.11.15
+        </div>
+        <div class="cell">
+            <a href="#">The Guardian: Information Architecture</a>
+        </div>
+    </div>
+</div>
+
 
 You can get in touch via [email](), [Twitter]() or [Facebook]().
-
