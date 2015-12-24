@@ -2,9 +2,9 @@
 
 ---
 
-<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> analyzes your tera- and petabytes of image and video data for your customer advantage and monetization.
+<span class="alternative"><strong>4Q</strong>uant</span> analyzes your tera- and petabytes of image and video data for your customer advantage and monetization.
 
-We offer cloud-compatible, large-scale image analytics [solutions](solutions.html) for data-driven medicine and industry 4.0 needs. You benefit from unlimited, elastic scalability without heavy investments in your own IT infrastructure.
+We offer cloud-compatible, large-scale image analytics [solutions](solutions.html) for data-driven medicine and industry 4.0 needs. You benefit from unlimited, elastic scalability without any investment in your own IT infrastructure or personnel.
 
 <div class="table">
     <div class="row">
@@ -12,10 +12,10 @@ We offer cloud-compatible, large-scale image analytics [solutions](solutions.htm
             27.12.15
         </div>
         <div class="cell">
-            <a href="#">
-              Mamography study using
-                <span style="font-family: 'Source Sans Pro'">
-                <strong>4Q</strong>uant</span>'s <span style="font-family: 'Source Sans Pro'">IQAE</span></a>
+            <a href="mammo.html">
+              Mammography study using
+                <span class="alternative">
+                <strong>4Q</strong>uant</span>'s <span class="alternative">IQAE</span></a>
         </div>
     </div>
     <div class="row">
@@ -23,7 +23,7 @@ We offer cloud-compatible, large-scale image analytics [solutions](solutions.htm
             11.12.15
         </div>
         <div class="cell">
-            <a href="#">Quanitification of COPD using deep learning algorithms</a>
+            <a href="copd.html">Quanitification of COPD using deep learning algorithms</a>
         </div>
     </div>
     <div class="row">
@@ -31,7 +31,7 @@ We offer cloud-compatible, large-scale image analytics [solutions](solutions.htm
             5.12.15
         </div>
         <div class="cell">
-            <a href="#">Streamlining image analysis for clinical trials</a>
+            <a href="streamline.html">Streamlining image analysis for clinical trials</a>
         </div>
     </div>
     <div class="row">
@@ -39,7 +39,7 @@ We offer cloud-compatible, large-scale image analytics [solutions](solutions.htm
             2.12.15
         </div>
         <div class="cell">
-            <a href="#">Quantitative Image Analysis vs. deep learning approaches</a>
+            <a href="comparison.html">Quantitative Image Analysis vs. deep learning approaches</a>
         </div>
     </div>
 </div>

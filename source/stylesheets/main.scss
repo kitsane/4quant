@@ -13,8 +13,8 @@ $tablet-font-size: 16px;
 $phone-font-size: 16px;
 
 $base-line-height: 1.7;
-$tablet-line-height: 1.7 * .8;
-$phone-line-height: 1.7 * .8;
+$tablet-line-height: $base-line-height * 1;
+$phone-line-height: $base-line-height * 1;
 
 $base-vertical-space: $base-font-size * $base-line-height; 
 $tablet-vertical-space: $tablet-font-size * $tablet-line-height * .8;
@@ -46,19 +46,19 @@ body {
   @include media('<=phone'){
     font-size: $phone-font-size;
     margin-top: $phone-vertical-space * 2;
-    line-height: 1.4;
+    line-height: $phone-line-height;
   }
 
   @include media('>phone'){
     font-size: $tablet-font-size;
     margin-top: $tablet-vertical-space * 2;
-    line-height: 1.6;
+    line-height: $tablet-line-height;
   }
 
   @include media('>=tablet'){
     font-size:$base-font-size;
     margin-top: $base-vertical-space * 2;
-    line-height: 1.7;
+    line-height: $base-line-height;
   }
 
   color: $base-text-color;
@@ -92,14 +92,30 @@ body {
 
 .cell {
   display: table-cell;
+  @include media('<=phone'){
+    line-height: $phone-line-height * .8;
+  }
+
+  @include media('>phone'){
+    line-height: $tablet-line-height * .8;
+  }
+
+  @include media('>=tablet'){
+    line-height: $base-line-height * .8;
+  }
+
   padding-left: 4px;
   padding-right: 4px;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
 }
 
 .intro {
   font-family: $alternative-font-family;
   line-height: .8em;
+}
+
+.alternative {
+  font-family: $alternative-font-family;
 }
 
 a {
@@ -153,14 +169,14 @@ header, nav {
 
 nav {
   @include media('<=phone'){
-   padding-top: $phone-vertical-space;
-   padding-bottom: $phone-vertical-space;
- }
+    padding-top: $phone-vertical-space;
+    padding-bottom: $phone-vertical-space;
+  }
 
   @include media('>phone'){
-   padding-top: $tablet-vertical-space;
-   padding-bottom: $tablet-vertical-space;
- }
+    padding-top: $tablet-vertical-space;
+    padding-bottom: $tablet-vertical-space;
+  }
 
   @include media('>=tablet'){
     padding-top: $base-vertical-space;
@@ -195,17 +211,14 @@ section {
 
   @include media('<=phone'){
     margin-bottom: $phone-vertical-space * 2;
-    background-color: red;
   }
 
   @include media('>phone'){
     margin-bottom: $tablet-vertical-space * 2;
-    background-color: green; 
   }
 
   @include media('>=tablet'){
     margin-bottom: $base-vertical-space * 2;
-    background-color: fuchsia;
   }
 
   display: block;
@@ -215,6 +228,11 @@ section {
   }
 }
 
+code {
+  background-color: rgba(0,0,0,0.04);
+  font-size: .8em;
+}
+
 .brand-name {
   line-height: 1;
 }
@@ -222,6 +240,7 @@ section {
 .claim {
   font-size: 0.70rem;
   text-transform: uppercase;
+
 }
 
 .list-horizontal {
@@ -250,7 +269,6 @@ td {
 }
 
 ul {
-//margin: 0 0 0 0;
   padding: 0 $horizontal-space 0 $horizontal-space ;
   margin: 0 0 0 6px;
 }
@@ -296,7 +314,9 @@ ul {
   
   // remove classic underline
   text-decoration: none;
-  
+ 
+
+@warn "foo"; 
   // warn if underline is thinner than 1px
   @if unit($width)==px {
     @if $width < 1px {
@@ -387,3 +407,17 @@ body {
 }
 
 /* pretty underline end */
+
+.browser {
+  @include media('<=phone'){
+    background-color: red;
+  }
+
+  @include media('>phone'){
+    background-color: green; 
+  }
+
+  @include media('>=tablet'){
+    background-color: fuchsia;
+  }
+}

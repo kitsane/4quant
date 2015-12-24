@@ -4,7 +4,7 @@ title: About us
 
 ---
 
-<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> is a Spin-off of [ETH Zurich](https://www.ethz.ch/de.html) and the [Paul Scherrer Institut](https://www.psi.ch/) based on the [PhD Thesis]() of [Kevin Mader](https://ch.linkedin.com/in/kevinmader) done in the [X-Ray Microscopy Laboratory of Marco Stampanoni](https://www.psi.ch/lsb-tomography/x-ray-tomography-group).
+<span class="alternative"><strong>4Q</strong>uant</span> is a Spin-off of [ETH Zurich](https://www.ethz.ch/de.html) and the [Paul Scherrer Institut](https://www.psi.ch/) based on the [PhD Thesis]() of [Kevin Mader](https://ch.linkedin.com/in/kevinmader) done in the [X-Ray Microscopy Laboratory of Marco Stampanoni](https://www.psi.ch/lsb-tomography/x-ray-tomography-group).
 
 We are funded by the [Pioneer Fellowship](https://www.ethz.ch/en/research/research-promotion/eth-internal-programmes/pioneer-fellowships.html) of the ETH Zurich and a member of the [ETH Innovation and Entrepreneurship Lab](https://www.ethz.ch/en/industry-and-society/innovation-and-setting-up-companies/ielab.html). We are built on a strong foundation of partnerships ranging from the [IBM Global Entrepreneur Program](https://www-01.ibm.com/software/info/ecod/cloudoffer/startup.html) and [Databricks](https://databricks.com/) for Cloud Support to [SLS Techno Trans AG](https://www.psi.ch/sls-techno-trans-ag/) for access to the latest generation of imaging techniqes.
 
@@ -20,7 +20,7 @@ We are committed to Open Source and have many of our projects available on [Gith
 
 # Get in touch
 
-<span style="font-family: 'Source Sans Pro'"><strong>4Q</strong>uant</span> Ltd.<br/>
+<span class="alternative"><strong>4Q</strong>uant</span> Ltd.<br/>
 Binzmühlestrasse 56<br/>
 CH-8050 Zurich<br/>
 
