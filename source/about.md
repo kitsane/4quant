@@ -12,11 +12,51 @@ We are committed to Open Source and have many of our projects available on [Gith
 
 # Partner
 
-|![IBM](images/logo-igpp.png)	|![Netcetera](http://mpi.netcetera.com/doc/current/images/netcetera-logo.png)|![Panter](http://www.panter.ch/img/ci/logo_invert.png)|![Databricks](images/logo-databricks.png)|![PSI](images/logo-psi.png)|
+<div class="table" style="width:100%">
+    <div class="row">
+        <div class="cell" style="vertical-align:middle">
+          <img src="images/logo-igpp.png" style="width:120px"/>
+        </div>
+        <div class="cell" style="vertical-align:middle">
+          <img src="images/logo-nca.png" style="width:120px"/>
+        </div>
+        <div class="cell" style="vertical-align:middle">
+          <img src="http://www.panter.ch/img/ci/logo_invert.png" style="width:120px"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell" style="vertical-align:middle">
+          <img src="images/logo-databricks.png" style="width:120px"/>
+        </div>
+        <div class="cell" style="vertical-align:middle">
+          <img src="images/logo-psi.png" style="width:120px"/>
+        </div>
+    </div>
+</div>
 
 # Affiliations
 
-|![ETH](images/logo-eth-spin-off.png)	|![Bluemix](https://www-304.ibm.com/connections/blogs/ibmconnected/resource/BLOGS_UPLOADED_IMAGES/Bluemix-logo-right.png)|![Apache Spark](https://upload.wikimedia.org/wikipedia/commons/e/ea/Spark-logo-192x100px.png)|![Swiss Made Software](http://www.screenconcept.com/uploads/news_item/asset/28/swiss_made_software_neu_inhalt.jpg)|
+<div class="table" style="width:100%">
+    <div class="row">
+        <div class="cell" style="vertical-align:middle">
+          <img src="images/logo-eth-spin-off.png" style="width:120px"/>
+        </div>
+        <div class="cell" style="vertical-align:middle">
+          <img src="https://www-304.ibm.com/connections/blogs/ibmconnected/resource/BLOGS_UPLOADED_IMAGES/Bluemix-logo-right.png" style="width:120px"/>
+        </div>
+        <div class="cell" style="vertical-align:middle">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Spark-logo-192x100px.png" style="width:120px"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell" style="vertical-align:middle">
+          <img src="http://www.screenconcept.com/uploads/news_item/asset/28/swiss_made_software_neu_inhalt.jpg" style="width:120px"/>
+        </div>
+        <div class="cell" style="vertical-align:middle">
+          <img src="images/logo-ec2.png" style="width:120px"/>
+        </div>
+    </div>
+</div>
 
 # Get in touch
 

@@ -93,15 +93,15 @@ body {
 .cell {
   display: table-cell;
   @include media('<=phone'){
-    line-height: $phone-line-height * .8;
+    line-height: $phone-line-height * .9;
   }
 
   @include media('>phone'){
-    line-height: $tablet-line-height * .8;
+    line-height: $tablet-line-height * .9;
   }
 
   @include media('>=tablet'){
-    line-height: $base-line-height * .8;
+    line-height: $base-line-height * .9;
   }
 
   padding-left: 4px;
