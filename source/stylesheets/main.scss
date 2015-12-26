@@ -45,7 +45,7 @@ header {
 
 h1,
 h2,
-h3 {
+h3, h4 {
     text-align: center;
     font-family: $alt-font-family;
     font-weight: 600;
@@ -73,13 +73,23 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+h3, h4 {
     font-weight: 400;
+}
+
+h4 {
+  font-family: $base-font-family;
+  margin: 0;
 }
 
 p {
     margin: 1em 0;
     text-indent: 1em;
+}
+
+.news p {
+  margin: 0 0 1em 0;
+  text-align: center;
 }
 
 .no-indent {
@@ -179,38 +189,15 @@ img {
   display: table;
   font-size: 1.2em;
 }
-  @media (max-width: 320px) {
-    /* line 74, /Users/nonlo/4quant/source/stylesheets/main.scss */
-    .table {
-      margin-bottom: 10.88px; } }
-  @media (min-width: 321px) {
-    /* line 74, /Users/nonlo/4quant/source/stylesheets/main.scss */
-    .table {
-      margin-bottom: 10.88px; } }
-  @media (min-width: 768px) {
-    /* line 74, /Users/nonlo/4quant/source/stylesheets/main.scss */
-    .table {
-      margin-bottom: 16.15px; } }
 
-/* line 89, /Users/nonlo/4quant/source/stylesheets/main.scss */
 .row {
-  display: table-row; }
+  display: table-row;
+}
 
-/* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
 .cell {
   display: table-cell;
+  line-height: 1.7em;
   padding-left: 4px;
   padding-right: 4px;
-  padding-bottom: 10px; }
-  @media (max-width: 320px) {
-    /* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
-    .cell {
-      line-height: 1.53; } }
-  @media (min-width: 321px) {
-    /* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
-    .cell {
-      line-height: 1.53; } }
-  @media (min-width: 768px) {
-    /* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
-    .cell {
-      line-height: 1.53; } }
+  padding-bottom: 10px;
+}
