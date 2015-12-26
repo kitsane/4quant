@@ -2,10 +2,9 @@
 
 ---
 
-<span class="alternative"><strong>4Q</strong>uant</span> analyzes your tera- and petabytes of image and video data for your customer advantage and monetization.
+<span class="alt-font"><strong>4Q</strong>uant</span> analyzes your tera- and petabytes of image and video data for your customer advantage and monetization.
 
 We offer cloud-compatible, large-scale image analytics [solutions](solutions.html) for data-driven medicine and industry 4.0 needs. You benefit from unlimited, elastic scalability without any investment in your own IT infrastructure or personnel.
-
 <div class="table">
     <div class="row">
         <div class="cell caption">
@@ -14,8 +13,8 @@ We offer cloud-compatible, large-scale image analytics [solutions](solutions.htm
         <div class="cell">
             <a href="mammo.html">
               Mammography study using
-                <span class="alternative">
-                <strong>4Q</strong>uant</span>'s <span class="alternative">IQAE</span></a>
+                <span class="alt-font">
+                <strong>4Q</strong>uant</span>'s <span class="alt-font">IQAE</span></a>
         </div>
     </div>
     <div class="row">

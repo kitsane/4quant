@@ -16,7 +16,7 @@ Direct image analytics failed due to huge infrastructure costs, manual handling,
 
 ## 4Quant provides outstanding image analytics
 
-<span class="alternative"><strong>4Q</strong>uant</span> developed a lightning-fast image processing technology.
+<span class="alt-font"><strong>4Q</strong>uant</span> developed a lightning-fast image processing technology.
 
 With the click of a button, our solution analyses petabytes of image data, from single image databases to thousands of camera streams — in real time.
 
@@ -26,7 +26,7 @@ Our decades of expertise in image analytics enables you to obtain reliable answe
 
 ### Scalability, seamless customization and unprecedented speed
 
-<span class="alternative"><strong>4Q</strong>uant</span> offers solutions for any stage in the image processing life cycle:
+<span class="alt-font"><strong>4Q</strong>uant</span> offers solutions for any stage in the image processing life cycle:
 
 With our proprietary Analytics on Demand solution, we are offering cloud-compatible imaging solutions. You benefit from unlimited, elastic scalability without heavy investment costs in your own IT infrastructure.
 
@@ -42,13 +42,13 @@ Our Image Query and Analysis Engine is the most convenient search tool for image
 
 While image analysis for the “Small Data” world is a fully developed environment, traditional analysis tools cannot cope with data rates in the order of GB/s and above.
 
-Such Big Image Data is the specialty of <span class="alternative"><strong>4Q</strong>uant</span>.
+Such Big Image Data is the specialty of <span class="alt-font"><strong>4Q</strong>uant</span>.
 
 Our cluster computing technology is able to scale seamlessly to handle literally any volume and speed of image analysis.
 
 The cost of expansion is proportional to the computing effort required, much in contrast to the installation of own IT infrastructure.
 
-<span class="alternative"><strong>4Q</strong>uant</span> specializes on quantitative image and video analysis. Quantitative analysis offers full control over the analysis process, which is particularly valuable in applications that demand high reliability
+<span class="alt-font"><strong>4Q</strong>uant</span> specializes on quantitative image and video analysis. Quantitative analysis offers full control over the analysis process, which is particularly valuable in applications that demand high reliability
 and accountability of the analysis result. In contrast, qualitative analysis based on deep learning algorithms offers far lower controllability of the analysis process and result.
 
 # Real-time Image Analytics

@@ -1,68 +1,141 @@
-@import 'normalize';
-@import 'media';
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic);
 
-/*
-Todos: 
-- Link auf Logo geht nicht -> macht einen underline
-- abstand zu underlines verschieden bei georgia und source sans pro
-*/
-
-$base-font-size: 19px;
-$tablet-font-size: 16px;
-$phone-font-size: 16px;
-
-$base-line-height: 1.7;
-$tablet-line-height: $base-line-height * 1;
-$phone-line-height: $base-line-height * 1;
-
-$base-vertical-space: $base-font-size * $base-line-height; 
-$tablet-vertical-space: $tablet-font-size * $tablet-line-height * .8;
-$phone-vertical-space: $phone-font-size * $phone-line-height * .8;
-
+$base-font-size: 16px;
+$base-vertical-space: $base-font-size * 1.5;
 $horizontal-space: $base-vertical-space / 2;
 $base-text-color: #434343;
 $base-background-color: #fcfcfc;
-$alternative-font-family: 'Source Sans Pro', serif; 
+$alt-font-family: 'Source Sans Pro', serif;
 $base-font-family: 'Georgia', sans-serif;
 
 html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-html {
-  margin: 0;
-  padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: $base-font-size;
 }
 
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
+    color: $base-text-color;
+    background-color: $base-background-color;
+    width: 40em;
+    max-width: 100%;
+    padding: 1em 1em 1em 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $base-font-family;
+    text-rendering: optimizeLegibility;
+}
 
-  @include media('<=phone'){
-    font-size: $phone-font-size;
-    margin-top: $phone-vertical-space * 2;
-    line-height: $phone-line-height;
-  }
-
-  @include media('>phone'){
-    font-size: $tablet-font-size;
-    margin-top: $tablet-vertical-space * 2;
-    line-height: $tablet-line-height;
-  }
-
-  @include media('>=tablet'){
-    font-size:$base-font-size;
-    margin-top: $base-vertical-space * 2;
-    line-height: $base-line-height;
-  }
-
+a, a:link, a:visited, a:hover, a:active {
   color: $base-text-color;
-  background-color: $base-background-color;
+}
+
+@media (max-width: 48em) {
+    body {
+        padding: .1em .1em .1em .1em;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: $alt-font-family;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+h1 a,
+h1 a:visited {
+    color: $base-text-color;
+    text-decoration: none;
+}
+
+h2 a,
+h2 a:visited {
+    color: $base-text-color;
+}
+
+@media (max-width: 48em) {
+    h3 {
+        font-weight: normal;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+p {
+    margin: 1em 0;
+    text-indent: 1em;
+}
+
+.no-indent {
+    text-indent: 0;
+}
+
+p,
+ul {
+    line-height: 1.7em;
+    font-size: 1.2em;
+
+}
+
+section {
+    margin: 0 auto;
+    padding: 1.5em;
+    -webkit-border-radius: 0.3125em;
+    border-radius: 0.3125em;
+}
+
+@media (max-width: 48em) {
+  section {
+      padding: 1.5em .5em 1.5em .5em;
+  }
+}
+
+section > *:first-child {
+    margin-top: 0;
+}
+
+section > *:last-child {
+    margin-bottom: 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.alt-font {
+  font-family: $alt-font-family;
+}
+
+header, nav {
+  text-align: center;
+  font-family: $alt-font-family;
+}
+
+.list-horizontal {
+  list-style: none;
+  padding: 0;
+  margin:0 0 0 0;
+}
+ .list-horizontal li {
+    display: inline;
+    padding-left: 4.0375px;
+    padding-right: 4.0375px;
 }
 
 .caption {
@@ -71,155 +144,10 @@ body {
   vertical-align: middle;
 }
 
-.table {
-  display: table;
-  @include media('<=phone'){
-    margin-bottom: $phone-vertical-space / 2;
-  }
-
-  @include media('>phone'){
-    margin-bottom: $tablet-vertical-space / 2;
-  }
-
-  @include media('>=tablet'){
-    margin-bottom: $base-vertical-space / 2;
-  }
-}
-
-.row {
-  display: table-row;
-}
-
-.cell {
-  display: table-cell;
-  @include media('<=phone'){
-    line-height: $phone-line-height * .9;
-  }
-
-  @include media('>phone'){
-    line-height: $tablet-line-height * .9;
-  }
-
-  @include media('>=tablet'){
-    line-height: $base-line-height * .9;
-  }
-
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-bottom: 10px;
-}
-
-.intro {
-  font-family: $alternative-font-family;
-  line-height: .8em;
-}
-
-.alternative {
-  font-family: $alternative-font-family;
-}
-
-a {
-  color: $base-text-color;
-}
-
-h1, h2, h3, ul, p, table {
-  margin-top: 0;
-
-  @include media('<=phone'){
-    margin-bottom: $phone-vertical-space / 2;
-  }
-
-  @include media('>phone'){
-    margin-bottom: $tablet-vertical-space / 2;
-  }
-
-  @include media('>=tablet'){
-    margin-bottom: $base-vertical-space / 2;
-  }
-
-}
-
-table {
-//  margin-left: auto;
-//  margin-right: auto;
-//  font-family: $alternative-font-family;
-//  font-size: $base-font-size * .8;
-}
-
-h1, h2, h3 {
-  font-size: $base-font-size;
-  text-align: center;
-  font-family: $alternative-font-family;
-  font-weight: 600;
-}
-
-h1 {
-  text-transform: uppercase;
-}
-
-h3 {
-  margin-bottom: 0;
-  text-align: left;
-}
-
-header, nav {
-  text-align: center;
-  font-family: $alternative-font-family;
-}
-
-nav {
-  @include media('<=phone'){
-    padding-top: $phone-vertical-space;
-    padding-bottom: $phone-vertical-space;
-  }
-
-  @include media('>phone'){
-    padding-top: $tablet-vertical-space;
-    padding-bottom: $tablet-vertical-space;
-  }
-
-  @include media('>=tablet'){
-    padding-top: $base-vertical-space;
-    padding-bottom: $base-vertical-space;
-  }
-}
-
-section {
-  @include media('<=phone'){
-    max-width: 400px; 
-  }
-
-  @include media('>phone'){
-    max-width: 400px; 
-  }
-
-  @include media('>=tablet'){
-    max-width: 600px; 
-  }
-
-  margin: 0 auto;
-  padding: {
-    left: $horizontal-space;
-    right: $horizontal-space;
-  }
-}
-
 .brand {
-  font-family: $alternative-font-family;
+  font-family: $alt-font-family;
   font-size: 2rem;
   text-decoration: none;
-
-  @include media('<=phone'){
-    margin-bottom: $phone-vertical-space * 2;
-  }
-
-  @include media('>phone'){
-    margin-bottom: $tablet-vertical-space * 2;
-  }
-
-  @include media('>=tablet'){
-    margin-bottom: $base-vertical-space * 2;
-  }
 
   display: block;
 
@@ -243,181 +171,46 @@ code {
 
 }
 
-.list-horizontal {
-  list-style: none;
-  padding: 0;
-
-  li {
-    display: inline;
-    padding: {
-      left: $horizontal-space / 4;
-      right: $horizontal-space / 4;
-    }
-  }
-}
-
 img {
   width: 100%;
 }
 
-strong {
-  font-weight: 600;
+.table {
+  display: table;
+  font-size: 1.2em;
 }
+  @media (max-width: 320px) {
+    /* line 74, /Users/nonlo/4quant/source/stylesheets/main.scss */
+    .table {
+      margin-bottom: 10.88px; } }
+  @media (min-width: 321px) {
+    /* line 74, /Users/nonlo/4quant/source/stylesheets/main.scss */
+    .table {
+      margin-bottom: 10.88px; } }
+  @media (min-width: 768px) {
+    /* line 74, /Users/nonlo/4quant/source/stylesheets/main.scss */
+    .table {
+      margin-bottom: 16.15px; } }
 
-td {
-  padding: 4px 4px 4px 4px;
-}
+/* line 89, /Users/nonlo/4quant/source/stylesheets/main.scss */
+.row {
+  display: table-row; }
 
-ul {
-  padding: 0 $horizontal-space 0 $horizontal-space ;
-  margin: 0 0 0 6px;
-}
-
-ul {
-  list-style-position: outside;
-}
-
-/* pretty underline */
-
-/// Remove the unit of a length
-/// @param {Number} $number - Number to remove unit from
-/// @return {Number} - Unitless number
-@function strip-unit($number) {
-  @if type-of($number) == 'number' and not unitless($number) {
-    @return $number / ($number * 0 + 1);
-  }
-
-  @return $number;
-}
-
-// Transform px to em
-@function em($px, $base: $base-font-size) {
-    @return (strip-unit($px) / strip-unit($base)) * 1em;
-}
-
-// Transform em to px
-@function px($em, $base: $base-font-size) {
-    @return (strip-unit($em) * strip-unit($base)) * 1px;
-}
-
-// Underline mixin
-//
-// If you set the variable in ems, be carefull. Firefox doesn't like dimensions <1px.
-// $var * base-font-size > 1px
-@mixin underline (
-  $underline-color: $base-text-color, 
-  $position: 1px, 
-  $width: 0.035em, 
-  $background-color: $base-background-color, 
-  $cut-distance: 1px, 
-  $font-size: $base-font-size) {
-  
-  // remove classic underline
-  text-decoration: none;
- 
-
-@warn "foo"; 
-  // warn if underline is thinner than 1px
-  @if unit($width)==px {
-    @if $width < 1px {
-      @warn "Underline is thinner than 1px. Some browsers may not display it."
-    }
-  }
-  @if unit($width)==em {
-    @if px($width) < 1px {
-      @warn "Underline is thinner than 1px. Some browsers may not display it."
-    }
-  }
-  
-  // if unit is in px, tranform it in em
-  @if unit($position)==px {
-    $position: em($position, $font-size);
-  }
-  @if unit($width)==px {
-    $width: em($width, $font-size);
-  }
-  @if unit($cut-distance)==px {
-    $cut-distance: em($cut-distance, $font-size);
-  }
-  
-  // the underline
-  background-image: 
-    linear-gradient(
-      to top, 
-      $background-color, 
-      $background-color $position, 
-      $underline-color $position, 
-      $underline-color $position+$width, 
-      $background-color $position+$width);
-
-  // text-shadow
-  // why so much ?! -> http://dsh.re/14297
-  $precision: 5;
-  $all: (); 
-  $delta-distance: $width * 2 / ($precision - 1);
-  // from left to right
-  @for $i from 0 through ($precision - 1) {
-    // from top to bottom
-    @for $y from 0 through ($precision - 1){
-      $all: append($all, (-$width)+$delta-distance*$i ((-$width)+$delta-distance*$y) 0 $background-color, comma)
-    }
-  }
-  text-shadow: $all;
-}
-
-.underline {
-  @include underline();
-}
-
-a {
-  @include underline();
-}
-
-// thicker underline for title
-h1,
-h2 {
-  & > .underline {
-    @include underline($base-text-color, 0.085em, 0.085em);
-  }
-}
-
-/*
-  $underline-color: $base-text-color, 
-  $position: 1px, 
-  $width: 1px, 
-  $background-color: $base-background-color, 
-  $cut-distance: 1px, 
-  $font-size: $base-font-size) {
-
-*/
-
-nav {
-  & ul > li > a {
-    @include underline($base-text-color, 0.09em, 0.035em, $base-background-color, 1px, 14px);
-  }
-}
-
-// housekeeping
-body {
-  color: $base-text-color;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  
-  font-feature-settings: "liga", "clig", "onum";
-}
-
-/* pretty underline end */
-
-.browser {
-  @include media('<=phone'){
-    background-color: red;
-  }
-
-  @include media('>phone'){
-    background-color: green; 
-  }
-
-  @include media('>=tablet'){
-    background-color: fuchsia;
-  }
-}
+/* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
+.cell {
+  display: table-cell;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 10px; }
+  @media (max-width: 320px) {
+    /* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
+    .cell {
+      line-height: 1.53; } }
+  @media (min-width: 321px) {
+    /* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
+    .cell {
+      line-height: 1.53; } }
+  @media (min-width: 768px) {
+    /* line 93, /Users/nonlo/4quant/source/stylesheets/main.scss */
+    .cell {
+      line-height: 1.53; } }

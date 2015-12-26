@@ -2,6 +2,16 @@
 
 ---
 
+We are training our proven, proprietary algorithm to accurately and quickly detect and classify anomalies in mammograms to enable early detection of breast cancer.
+
+WE ARE WORKING TO SAVE LIVES.
+The CureMetrix learning algorithm quickly and accurately detects anomalies in very noisy 2D and 3D images.
+Unlike traditional techniques such as neural networks, support vector machines, and computer vision, we can use our algorithm to explore images with more accuracy and understanding of the outcomes.
+
+Accurately and consistently detecting and diagnosing breast cancer using mammograms continues to be challenging with false negative rates each hovering at around 20%. CureMetrix is working with esteemed institutions such as UCSD and Tijuana General Hospital to train our algorithm to recognize different types of anomalies in mammograms and correctly classify them as benign or malignant. Our goal is to be able to consistently, accurately, and quickly be able to assist radiologists with their diagnosis. Ultimately this will help reduce over diagnosis, reduce unnecessary procedures, reduce anxiety in patients, and save lives.
+
+And beyond mammograms are the other 600 million medical imaging studies conducted every year in the US!
+
 # Improving Surgery and Radiotherapy with Real-time Analysis
 
 ## Problem: Static prescan images are a poor guide for treatment

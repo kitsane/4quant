@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>4Quant | <%= current_page.data.title || "Big Image Analytics" %></title>
-
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
     <%= stylesheet_link_tag "main" %>
     <%= javascript_include_tag  "main" %>
+    <script>
+    SmartUnderline.init({
+    "location": ""
+    })
+    </script>
   </head>
   <body>
     <section>
@@ -37,7 +39,6 @@
           <li><a href="legals.html">Legals</a></li>
         </ul>
       </nav>
-      <span class="browser">x</span>
     </section>
   </body>
 </html>
