@@ -71,7 +71,8 @@
       }
     }
     clearCanvas(canvas, context);
-    return highestY;
+    //hack flavio +1 für safari
+    return highestY +1;
   };
 
   calculateTypeMetrics = function(computedStyle) {
