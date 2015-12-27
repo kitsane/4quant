@@ -6,7 +6,7 @@ $base-vertical-space: $base-font-size * 1.5;
 $horizontal-space: $base-vertical-space / 2;
 $base-text-color: #434343;
 $base-background-color: #fcfcfc;
-$alt-font-family: 'Source Sans Pro', serif;
+$alt-font-family: 'Source Sans Pro', sans-serif;
 $base-font-family: 'Droid Serif', serif;
 
 html {
@@ -15,12 +15,102 @@ html {
     font-size: $base-font-size;
 }
 
+@media (max-width: 47em) {
+    html {
+        font-size: $base-font-size * .8;
+    }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        font-size: $base-font-size * .8;
+    }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        font-size: $base-font-size * .8;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        font-size: $base-font-size * .8;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    html {
+        font-size: $base-font-size * .8;
+    }
+}
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+        font-size: $base-font-size * 1;
+    }
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    html {
+        font-size: $base-font-size * 1;
+    }
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+        font-size: $base-font-size * 1;
+    }
+}
+
+
 body {
     color: $base-text-color;
     background-color: $base-background-color;
     width: 40em;
     max-width: 100%;
-    padding: 1em 1em 1em 1em;
+    padding: 2em 1em 1em 1em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -36,7 +126,7 @@ a, a:link, a:visited, a:hover, a:active {
 
 @media (max-width: 48em) {
     body {
-        padding: .1em .1em .1em .1em;
+        padding: 1em 1em 0 1em;
     }
 }
 
@@ -50,7 +140,8 @@ h3, h4 {
     text-align: center;
     font-family: $alt-font-family;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    margin: 2em 1em 1em 1em;
 }
 
 h1 a,
@@ -83,17 +174,27 @@ h4 {
   margin: 0;
 }
 
-p {
+p + p {
     margin: 1em 0;
-    text-indent: 1em;
+    text-indent: 2em;
 }
 
 .news p {
   margin: 0 0 1em 0;
-  text-align: center;
+
   text-indent: 0;
 }
 
+.news div {
+  line-height: 1.7em;
+  font-size: 1.2em;
+}
+
+.news {
+    margin: 0 0 2.5em 0;
+}
+
+//todo: macht das was?
 .no-indent {
     text-indent: 0;
 }
@@ -102,7 +203,6 @@ p,
 ul {
     line-height: 1.7em;
     font-size: 1.2em;
-
 }
 
 section {
@@ -132,6 +232,7 @@ strong {
 
 .alt-font {
   font-family: $alt-font-family;
+  font-size: 1.15em;
 }
 
 header, nav {
@@ -151,7 +252,6 @@ header, nav {
 }
 
 .caption {
-  font-size: .7em;
   text-align: right;
   vertical-align: middle;
 }

@@ -4,10 +4,6 @@ title: 'Technology'
 
 # Technology
 
-## Imaging & Video
-
-### An exponentially rising trend
-
 The significance of still image and video data is exponentially growing.
 Ever cheaper and smaller cameras make video recording omnipresent in our world. Increased resolution, increased bandwidth availability, ubiquitous monitoring and surveillance, real-time streaming capabilities in mobile environments, together with single-purpose sensors replaced by cameras create a significant amount of data and therefore a big challenge to manage petabytes of image data.
 
@@ -17,22 +13,15 @@ Direct image analytics failed due to huge infrastructure costs, manual handling,
 ## 4Quant provides outstanding image analytics
 
 <span class="alt-font"><strong>4Q</strong>uant</span> developed a lightning-fast image processing technology.
-
 With the click of a button, our solution analyses petabytes of image data, from single image databases to thousands of camera streams — in real time.
 
 Our decades of expertise in image analytics enables you to obtain reliable answers to your image analysis demands. Using sophisticated analytics distribution in clustered environments, our technology is highly scalable.
 
-## Our strengths
+## Scalability, seamless customization and unprecedented speed
 
-### Scalability, seamless customization and unprecedented speed
+<span class="alt-font"><strong>4Q</strong>uant</span> offers solutions for any stage in the image processing life cycle: With our proprietary Analytics on Demand solution, we are offering cloud-compatible imaging solutions. You benefit from unlimited, elastic scalability without heavy investment costs in your own IT infrastructure.
 
-<span class="alt-font"><strong>4Q</strong>uant</span> offers solutions for any stage in the image processing life cycle:
-
-With our proprietary Analytics on Demand solution, we are offering cloud-compatible imaging solutions. You benefit from unlimited, elastic scalability without heavy investment costs in your own IT infrastructure.
-
-You pay only for the computational power you need at the moment.
-
-Our Ad-hoc query solution provides you with maximum flexibility to tackle varying challenging image analytics problems. The dynamic algorithms are fully based on your data and feedback and thus constantly improve unlike static predefined analysis solutions.
+You pay only for the computational power you need at the moment. Our Ad-hoc query solution provides you with maximum flexibility to tackle varying challenging image analytics problems. The dynamic algorithms are fully based on your data and feedback and thus constantly improve unlike static predefined analysis solutions.
 
 # Image Query and Analysis Engine
 
@@ -40,13 +29,7 @@ Our Image Query and Analysis Engine is the most convenient search tool for image
 
 # Image Analysis
 
-While image analysis for the “Small Data” world is a fully developed environment, traditional analysis tools cannot cope with data rates in the order of GB/s and above.
-
-Such Big Image Data is the specialty of <span class="alt-font"><strong>4Q</strong>uant</span>.
-
-Our cluster computing technology is able to scale seamlessly to handle literally any volume and speed of image analysis.
-
-The cost of expansion is proportional to the computing effort required, much in contrast to the installation of own IT infrastructure.
+While image analysis for the “Small Data” world is a fully developed environment, traditional analysis tools cannot cope with data rates in the order of GB/s and above. Such Big Image Data is the specialty of <span class="alt-font"><strong>4Q</strong>uant</span>. Our cluster computing technology is able to scale seamlessly to handle literally any volume and speed of image analysis. The cost of expansion is proportional to the computing effort required, much in contrast to the installation of own IT infrastructure.
 
 <span class="alt-font"><strong>4Q</strong>uant</span> specializes on quantitative image and video analysis. Quantitative analysis offers full control over the analysis process, which is particularly valuable in applications that demand high reliability
 and accountability of the analysis result. In contrast, qualitative analysis based on deep learning algorithms offers far lower controllability of the analysis process and result.

@@ -12,53 +12,60 @@ We are funded by the [Pioneer Fellowship](https://www.ethz.ch/en/research/resear
 
 We are committed to Open Source and have many of our projects available on [Github](https://github.com/4Quant) and we push many of our latest developments back to the core project so the entire community can benefit from our developments.
 
-# Partner
+# Customers
 
-<div class="table" style="width:100%">
-    <div class="row">
-        <div class="cell" style="vertical-align:middle">
-          <img src="images/logo-igpp.png" style="width:120px"/>
-        </div>
-        <div class="cell" style="vertical-align:middle">
-          <img src="images/logo-nca.png" style="width:120px"/>
-        </div>
-        <div class="cell" style="vertical-align:middle">
-          <img src="http://www.panter.ch/img/ci/logo_invert.png" style="width:120px"/>
-        </div>
+todo
+
+# Partner
+<div style="width: 100%; display: block; position: relative; text-align: center;">
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle;  padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-igpp.png" style="width:6em"/>
     </div>
-    <div class="row">
-        <div class="cell" style="vertical-align:middle">
-          <img src="images/logo-databricks.png" style="width:120px"/>
-        </div>
-        <div class="cell" style="vertical-align:middle">
-          <img src="images/logo-psi.png" style="width:120px"/>
-        </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle; padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-nca.png" style="width:6em"/>
+    </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle; padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="http://www.panter.ch/img/ci/logo_invert.png" style="width:6em"/>
+    </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle; padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-databricks.png" style="width:6em"/>
+    </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle; padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-psi.png" style="width:6em"/>
     </div>
 </div>
 
 # Affiliations
 
-<div class="table" style="width:100%">
-    <div class="row">
-        <div class="cell" style="vertical-align:middle">
-          <img src="images/logo-eth-spin-off.png" style="width:120px"/>
-        </div>
-        <div class="cell" style="vertical-align:middle">
-          <img src="https://www-304.ibm.com/connections/blogs/ibmconnected/resource/BLOGS_UPLOADED_IMAGES/Bluemix-logo-right.png" style="width:120px"/>
-        </div>
-        <div class="cell" style="vertical-align:middle">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Spark-logo-192x100px.png" style="width:120px"/>
-        </div>
+<div style="width: 100%; display: block; position: relative; text-align: center;">
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle;  padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-eth-spin-off.png" style="width:6em"/>
     </div>
-    <div class="row">
-        <div class="cell" style="vertical-align:middle">
-          <img src="http://www.screenconcept.com/uploads/news_item/asset/28/swiss_made_software_neu_inhalt.jpg" style="width:120px"/>
-        </div>
-        <div class="cell" style="vertical-align:middle">
-          <img src="images/logo-ec2.png" style="width:120px"/>
-        </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle;  padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-bluemix.png" style="width:6em"/>
     </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle;  padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-spark.png" style="width:6em"/>
+    </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle;  padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-sms.png" style="width:6em"/>
+    </div>
+
+    <div style="position: relative; text-align: left; display: inline-block; vertical-align: middle;  padding: 1em 1em 1em 1em; width: 7em;">
+      <img src="images/logo-ec2.png" style="width:6em"/>
+    </div>
+
 </div>
+
 
 # Get in touch
 

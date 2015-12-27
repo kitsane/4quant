@@ -9,28 +9,27 @@ We offer cloud-compatible, large-scale image analytics [solutions](solutions.htm
 # News
 
 <div class="news">
-  <div style="text-align: center">December 27 2015</div>
+  <div>December 27 2015</div>
   <p>
     <a href="mammo.html">Mammography study</a> using
               <span class="alt-font"><strong>4Q</strong>uant</span>'s <span class="alt-font">IQAE</span>
   </p>
-  <div style="text-align: center">December 11 2015</div>
+  <div>December 11 2015</div>
   <p>
     <a href="copd.html">Quanitification of COPD</a> using deep learning algorithms
   </p>
 
 
-  <div style="text-align: center">December 5 2015</div>
+  <div>December 5 2015</div>
   <p>
     <a href="streamline.html">Streamlining image analysis</a> for clinical trials
   </p>
 
-  <div style="text-align: center">Novmeber 11 2015</div>
+  <div>Novmeber 11 2015</div>
   <p>
     <a href="comparison.html">Quantitative Image Analysis vs. deep learning approaches</a>
   </p>
 </div>
-
 
 
 <!--
