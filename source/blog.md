@@ -12,11 +12,15 @@ title: 'Blog'
     <a href="mri.html">Improving Surgery and Radiotherapy</a> with Real-time Analysis
   </p>
 
+  <div>December 15, 2015</div>
+  <p>
+    <a href="indexing.html">Indexing Medicine with Smart Image Databases
+  </p>
+
   <div>December 11, 2015</div>
   <p>
     <a href="copd.html">Quanitification of COPD</a> using deep learning algorithms
   </p>
-
 
   <div>December 5, 2015</div>
   <p>
