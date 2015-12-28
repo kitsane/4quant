@@ -6,7 +6,7 @@ title: About us
 
 # About us
 
-<span class="alt-font"><strong>4Q</strong>uant</span> is a Spin-off of [ETH Zurich](https://www.ethz.ch/de.html) and the [Paul Scherrer Institut](https://www.psi.ch/) based on the [PhD Thesis]() of [Kevin Mader](https://ch.linkedin.com/in/kevinmader) done in the [X-Ray Microscopy Laboratory of Marco Stampanoni](https://www.psi.ch/lsb-tomography/x-ray-tomography-group).
+*4Quant* is a Spin-off of [ETH Zurich](https://www.ethz.ch/de.html) and the [Paul Scherrer Institut](https://www.psi.ch/) based on the [PhD Thesis]() of [Kevin Mader](https://ch.linkedin.com/in/kevinmader) done in the [X-Ray Microscopy Laboratory of Marco Stampanoni](https://www.psi.ch/lsb-tomography/x-ray-tomography-group).
 
 We are funded by the [Pioneer Fellowship](https://www.ethz.ch/en/research/research-promotion/eth-internal-programmes/pioneer-fellowships.html) of the ETH Zurich and a member of the [ETH Innovation and Entrepreneurship Lab](https://www.ethz.ch/en/industry-and-society/innovation-and-setting-up-companies/ielab.html). We are built on a strong foundation of partnerships ranging from the [IBM Global Entrepreneur Program](https://www-01.ibm.com/software/info/ecod/cloudoffer/startup.html) and [Databricks](https://databricks.com/) for Cloud Support to [SLS Techno Trans AG](https://www.psi.ch/sls-techno-trans-ag/) for access to the latest generation of imaging techniqes.
 
@@ -69,13 +69,14 @@ todo
 
 # Get in touch
 
+You can get in touch via <a href='mailto&#58;&#105;&#37;&#54;&#69;&#102;&#111;&#64;4&#37;71u%&#54;1nt&#46;com'>email</a>, [Twitter](https://twitter.com/4quant), [Linkedin](https://www.linkedin.com/company/4quant) or [Facebook](https://www.facebook.com/4quant/).
+
 <p class="no-indent">
-<span class="alt-font"><strong>4Q</strong>uant</span> Ltd.<br/>
+4Quant Ltd.<br/>
 Binzmühlestrasse 56<br/>
 CH-8050 Zurich<br/>
 </p>
 <p class="no-indent">
 <a href='mailto&#58;&#105;&#37;&#54;&#69;&#102;&#111;&#64;4&#37;71u%&#54;1nt&#46;com'>&#105;n&#102;&#111;&#64;4&#113;uan&#116;&#46;&#99;&#111;m</a><br/>
 CHE-168.792.194<br/>
-IBAN CH59 0070 0110 0058 4428 4<br/>
 </p>

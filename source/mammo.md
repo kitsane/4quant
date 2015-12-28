@@ -1,6 +1,12 @@
 ---
 
+title: 'Mammo'
+
 ---
+
+# Mammo
+
+<span style="font-style: italic;text-align: center;display: block">December 27, 2015 — 11 mins read</span>
 
 We are training our proven, proprietary algorithm to accurately and quickly detect and classify anomalies in mammograms to enable early detection of breast cancer.
 
@@ -21,7 +27,3 @@ The standard procedure for both radiotherapy and surgery involves making scans a
 ## Solution: Real-time Imaging and Segmentation
 
 The latest surgical suites and MRI technologies have made subsecond measurements a reality. These measurements are already being used to assist therapy, but the value is limited without the ability to process the images in real-time.
-
-|<img src="images/mammo-001.gif" style="width:100%"/>|```SELECT Image as ChestCT FROM PatientImages WHERE Modality="CT" AND Region="Chest"```|
-|<img src="images/mammo-002.gif" style="width:100%"/>|Perform Segmentation ```SELECT CHEST_SEGMENTATION(Image) as ChestSeg FROM ChestCT```|
-|<img src="images/mammo-003.gif" style="width:100%"/>|Extract the heart since it is the most dose-sensitiv ```SELECT CHEST_SEGMENTATION(Image) as ChestSeg FROM ChestCT```|
