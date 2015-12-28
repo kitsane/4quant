@@ -14,7 +14,8 @@ We are committed to Open Source and have many of our projects available on [Gith
 
 # Customers
 
-todo
+todo (logos im google drive)
+https://www.evernote.com/l/AJmcllRKo1JOk7of4utrDFMx4-mjUCXp7HE
 
 # Partner
 <div style="width: 100%; display: block; position: relative; text-align: center;">

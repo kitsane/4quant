@@ -29,7 +29,7 @@ Our *Image Query and Analysis Engine* is the most convenient search tool for ima
 
 # Image Analysis
 
-While image analysis for the “Small Data” world is a fully developed environment, traditional analysis tools cannot cope with data rates in the order of GB/s and above. Such Big Image Data is the specialty of *4Quant*. Our cluster computing technology is able to scale seamlessly to handle literally any volume and speed of image analysis. The cost of expansion is proportional to the computing effort required, much in contrast to the installation of own IT infrastructure.
+While image analysis for the «Small Data» world is a fully developed environment, traditional analysis tools cannot cope with data rates in the order of GB/s and above. Such Big Image Data is the specialty of *4Quant*. Our cluster computing technology is able to scale seamlessly to handle literally any volume and speed of image analysis. The cost of expansion is proportional to the computing effort required, much in contrast to the installation of own IT infrastructure.
 
 *4Quant* specializes on quantitative image and video analysis. Quantitative analysis offers full control over the analysis process, which is particularly valuable in applications that demand high reliability
 and accountability of the analysis result. In contrast, qualitative analysis based on deep learning algorithms offers far lower controllability of the analysis process and result.
