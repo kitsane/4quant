@@ -14,7 +14,7 @@ title: 'Blog'
 
   <div>December 15, 2015</div>
   <p>
-    <a href="indexing.html">Indexing Medicine with Smart Image Databases
+    <a href="Organ-Segmentation.html">Indexing Medicine with Smart Image Databases
   </p>
 
   <div>December 11, 2015</div>

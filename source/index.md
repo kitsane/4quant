@@ -31,7 +31,7 @@ Come join us and put a dent in the universe!
   </p>
   <div>December 15, 2015</div>
   <p>
-    <a href="indexing.html">Indexing Medicine with Smart Image Databases</a>
+    <a href="Organ-Segmentation.html">Indexing Medicine with Smart Image Databases</a>
   </p>
   <div>December 11, 2015</div>
   <p>
