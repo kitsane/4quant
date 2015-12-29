@@ -9,7 +9,7 @@ title: 'Blog'
 <div class="news">
   <div>December 27, 2015</div>
   <p>
-    <a href="mri.html">Improving Surgery and Radiotherapy</a> with Real-time Analysis
+    <a href="Realtime-MRI-Segmentation.html">Improving Surgery and Radiotherapy</a> with Real-time Analysis
   </p>
 
   <div>December 15, 2015</div>
